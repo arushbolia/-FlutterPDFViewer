@@ -42,7 +42,8 @@ class _HomePageState extends State<HomePage> {
     setState(() {
       _loading = true;
     });
-    final doc = await PDFDocument.fromAsset(pdfAsset);
+    //final doc = await PDFDocument.fromAsset(pdfAsset);
+    final doc = await PDFDocument.fromURL(pdfUrl);
     setState(() {
       _doc = doc;
       _loading = false;

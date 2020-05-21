@@ -1,6 +1,6 @@
 # flutter_pdf_app
 
-A Flutter application to view PDF file via a link or through pre stored data.
+A Flutter application to view PDF file via a link or through stored data.
 
 ## Getting Started
 
